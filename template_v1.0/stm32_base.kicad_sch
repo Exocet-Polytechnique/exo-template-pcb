@@ -2011,6 +2011,164 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Exocet:LM3940"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at -3.81 3.175 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LM3940"
+				(at 0 3.175 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "TO-220-3"
+				(at -5.08 -19.05 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+				)
+			)
+			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/lm3940.pdf?ts=1792017030401&ref_url=https%253A%252F%252Fwww.ti.com%252Fsitesearch%252Fen-us%252Fdocs%252Funiversalsearch.tsp%253FlangPref%253Den-US%2526nr%253D103475%2526searchTerm%253D12+v+to+3.3v"
+				(at 0 6.604 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "1A LDO-Regulator, 4.5-5.5 input, 3.3V fixed Output Voltage"
+				(at 0.508 11.938 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "dc-dc recom Step-Down DC/DC-Regulator"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Converter*DCDC*RECOM*R*78E*0.5*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "LM3940_0_1"
+				(rectangle
+					(start -5.08 1.905)
+					(end 5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "LM3940_1_1"
+				(pin power_in line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Exocet:Network_Connector"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -5285,6 +5443,28 @@
 		)
 		(uuid "f76bafab-3f70-418b-a1fc-1eda06b0dc12")
 	)
+	(text_box "Use tantalum capacitor at OUT pin "
+		(exclude_from_sim no)
+		(at 82.55 55.88 0)
+		(size 33.655 5.9929)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 132 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 132 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "0ac80d33-b6e8-4db9-9533-d2ce9b4617c4")
+	)
 	(text_box "Use 3.3 V from the STM32 for VIO"
 		(exclude_from_sim no)
 		(at 142.24 57.15 0)
@@ -5364,10 +5544,22 @@
 		(uuid "0b6c6bd8-5855-42b2-8ef4-6ba8725018c8")
 	)
 	(junction
+		(at 85.09 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1b07d2f8-3854-4c24-9cf4-c0097da8678a")
+	)
+	(junction
 		(at 127 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1b89aaa2-b17e-4241-b596-ec921ea92945")
+	)
+	(junction
+		(at 72.39 31.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1bd30fa6-7b59-4e3e-b8ab-a064643f396a")
 	)
 	(junction
 		(at 82.55 185.42)
@@ -5452,6 +5644,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "887d6c8c-3007-4d4b-8e62-718aaf2359bf")
+	)
+	(junction
+		(at 96.52 31.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9030a4fa-cc3e-4c6d-95e6-7e1274610313")
 	)
 	(junction
 		(at 273.05 30.48)
@@ -5743,6 +5941,16 @@
 	)
 	(wire
 		(pts
+			(xy 85.09 44.45) (xy 96.52 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09ee9542-1b63-4101-b0e7-e11cfd161b06")
+	)
+	(wire
+		(pts
 			(xy 48.26 100.33) (xy 63.5 100.33)
 		)
 		(stroke
@@ -5773,7 +5981,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 31.75) (xy 57.15 31.75)
+			(xy 45.72 31.75) (xy 55.88 31.75)
 		)
 		(stroke
 			(width 0)
@@ -6023,6 +6231,16 @@
 	)
 	(wire
 		(pts
+			(xy 67.31 31.75) (xy 72.39 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f0efdd8-3b63-4c63-91c3-474d6d0f5360")
+	)
+	(wire
+		(pts
 			(xy 53.34 105.41) (xy 63.5 105.41)
 		)
 		(stroke
@@ -6133,6 +6351,16 @@
 	)
 	(wire
 		(pts
+			(xy 85.09 44.45) (xy 85.09 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "539a403a-06b2-4590-83b2-540614ae4c43")
+	)
+	(wire
+		(pts
 			(xy 120.65 24.13) (xy 120.65 25.4)
 		)
 		(stroke
@@ -6140,6 +6368,16 @@
 			(type default)
 		)
 		(uuid "54bf7e65-bc7a-478a-9f1b-c8a2f5cb1d87")
+	)
+	(wire
+		(pts
+			(xy 72.39 31.75) (xy 77.47 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "581fea8e-4dc2-4c5e-ad5e-4248ecea2b3b")
 	)
 	(wire
 		(pts
@@ -6203,6 +6441,16 @@
 	)
 	(wire
 		(pts
+			(xy 92.71 31.75) (xy 96.52 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5fe42aa6-9adb-4615-8ec5-684b8953fb55")
+	)
+	(wire
+		(pts
 			(xy 48.26 109.22) (xy 48.26 113.03)
 		)
 		(stroke
@@ -6233,7 +6481,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 39.37) (xy 36.83 40.64)
+			(xy 35.56 39.37) (xy 35.56 40.64)
 		)
 		(stroke
 			(width 0)
@@ -6280,6 +6528,26 @@
 			(type default)
 		)
 		(uuid "67ac7644-9ceb-472b-bb03-0651bb091cfa")
+	)
+	(wire
+		(pts
+			(xy 101.6 87.63) (xy 101.6 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69458c9b-6750-4556-9012-1da6688db187")
+	)
+	(wire
+		(pts
+			(xy 72.39 33.02) (xy 72.39 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "694f5215-ab5d-4d47-ac24-8415e6001835")
 	)
 	(wire
 		(pts
@@ -6483,13 +6751,23 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 41.91) (xy 254 41.91)
+			(xy 245.11 41.91) (xy 256.54 41.91)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "887f10ce-4d91-47ee-aa44-099397406c90")
+	)
+	(wire
+		(pts
+			(xy 72.39 40.64) (xy 72.39 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "888cde3e-f929-42a8-850b-91d88b95a21a")
 	)
 	(wire
 		(pts
@@ -6520,6 +6798,16 @@
 			(type default)
 		)
 		(uuid "8c2e274b-df5d-49dd-a317-210c492d9570")
+	)
+	(wire
+		(pts
+			(xy 72.39 44.45) (xy 85.09 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d47403a-9362-4649-baf8-a8589c830f34")
 	)
 	(wire
 		(pts
@@ -6600,6 +6888,16 @@
 			(type default)
 		)
 		(uuid "9fbb39c0-d79b-4871-b78a-4c60e64c386f")
+	)
+	(wire
+		(pts
+			(xy 85.09 39.37) (xy 85.09 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a04b1688-2fd0-4521-a87c-f598f14ae24a")
 	)
 	(wire
 		(pts
@@ -6773,6 +7071,16 @@
 	)
 	(wire
 		(pts
+			(xy 96.52 31.75) (xy 104.14 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c267c701-aa6c-4dba-9ee8-4dfab17066b2")
+	)
+	(wire
+		(pts
 			(xy 251.46 54.61) (xy 254 54.61)
 		)
 		(stroke
@@ -6863,7 +7171,7 @@
 	)
 	(wire
 		(pts
-			(xy 17.78 31.75) (xy 26.67 31.75)
+			(xy 16.51 31.75) (xy 25.4 31.75)
 		)
 		(stroke
 			(width 0)
@@ -6880,6 +7188,16 @@
 			(type default)
 		)
 		(uuid "d3b2702f-83e5-4899-8103-3e1519c52279")
+	)
+	(wire
+		(pts
+			(xy 96.52 44.45) (xy 96.52 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6e3b18b-9839-4770-91c7-974a541277a8")
 	)
 	(wire
 		(pts
@@ -6940,16 +7258,6 @@
 			(type default)
 		)
 		(uuid "df0c3a41-e301-4a09-901b-725e62b58b3c")
-	)
-	(wire
-		(pts
-			(xy 127 29.21) (xy 127 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e3110f16-0d06-4511-a89c-ac19b43bd5f2")
 	)
 	(wire
 		(pts
@@ -7222,7 +7530,7 @@
 		(uuid "39c33eaa-75e1-452c-8c3e-ceaf5f801481")
 	)
 	(label "5V VDC"
-		(at 57.15 31.75 180)
+		(at 55.88 31.75 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7250,6 +7558,16 @@
 			(justify right bottom)
 		)
 		(uuid "6878cf4b-8ab6-4c52-826b-adcb60f452d7")
+	)
+	(label "5V VDC"
+		(at 73.66 31.75 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "71b729db-6453-434c-aad1-cee1dffd20d1")
 	)
 	(label "T_JCLK{slash}T_SWCLK"
 		(at 276.86 87.63 180)
@@ -7989,7 +8307,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 36.83 40.64 0)
+		(at 35.56 40.64 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8000,7 +8318,7 @@
 		(fields_autoplaced yes)
 		(uuid "163a8e2a-6af7-42e8-bdac-b7d484c4726a")
 		(property "Reference" "#PWR01"
-			(at 36.83 46.99 0)
+			(at 35.56 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8011,7 +8329,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 36.83 45.72 0)
+			(at 35.56 45.72 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8021,7 +8339,7 @@
 			)
 		)
 		(property "Footprint" "Converter_DCDC:Converter_DCDC_TRACO_TSR1-xxxxE_THT"
-			(at 36.83 40.64 0)
+			(at 35.56 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8032,7 +8350,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 36.83 40.64 0)
+			(at 35.56 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8043,7 +8361,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 36.83 40.64 0)
+			(at 35.56 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10525,6 +10843,180 @@
 		)
 	)
 	(symbol
+		(lib_id "Exocet:LM3940")
+		(at 85.09 31.75 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5cf5bd97-0a68-479f-9069-5d482c58b662")
+		(property "Reference" "U4"
+			(at 85.09 25.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LM3940"
+			(at 85.09 27.94 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
+			(at 80.01 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/lm3940.pdf?ts=1792017030401&ref_url=https%253A%252F%252Fwww.ti.com%252Fsitesearch%252Fen-us%252Fdocs%252Funiversalsearch.tsp%253FlangPref%253Den-US%2526nr%253D103475%2526searchTerm%253D12+v+to+3.3v"
+			(at 85.09 25.146 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "1A LDO-Regulator, 4.5-5.5 input, 3.3V fixed Output Voltage"
+			(at 85.598 19.812 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB" "C544820"
+			(at 85.09 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "60e78b24-32c9-4237-a0c9-f02bc29597ed")
+		)
+		(pin "2"
+			(uuid "8c5c6818-a4e4-4239-abdc-16c2e1e0d677")
+		)
+		(pin "3"
+			(uuid "70ca3057-6ae2-4c16-80c4-0586499c0ed1")
+		)
+		(instances
+			(project "template"
+				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/7d59fd70-1fff-4c9c-ae77-583b08aef567"
+					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 104.14 31.75 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5e0f607d-1bcf-496a-9594-f40a9e3c3ac3")
+		(property "Reference" "#PWR07"
+			(at 104.14 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 104.14 26.67 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TO-220-3"
+			(at 104.14 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 104.14 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f8cf37b9-4390-450a-9682-8b9fe786f4d8")
+		)
+		(instances
+			(project "template"
+				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/7d59fd70-1fff-4c9c-ae77-583b08aef567"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 120.65 25.4 0)
 		(unit 1)
@@ -11048,6 +11540,98 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 72.39 36.83 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "777f2d29-97c9-4388-93e0-2f3b703820a6")
+		(property "Reference" "C1"
+			(at 67.818 34.544 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.47u"
+			(at 64.008 36.576 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+			(at 73.3552 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/partdetail/1975-CL10B474KA8NNNC/C1623"
+			(at 72.39 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 72.39 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB" "C1623"
+			(at 72.39 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "4a02a2d0-9611-4b4d-b070-b04e2dd5222d")
+		)
+		(pin "1"
+			(uuid "54f80da8-3ac5-4829-983e-c7306923fc28")
+		)
+		(instances
+			(project "template"
+				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/7d59fd70-1fff-4c9c-ae77-583b08aef567"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 254 54.61 0)
 		(unit 1)
@@ -11330,7 +11914,7 @@
 	)
 	(symbol
 		(lib_id "Converter_DCDC:TSR1-2450E")
-		(at 36.83 34.29 0)
+		(at 35.56 34.29 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11341,7 +11925,7 @@
 		(fields_autoplaced yes)
 		(uuid "834c605e-200d-446e-87ef-48348d269461")
 		(property "Reference" "U1"
-			(at 36.83 24.13 0)
+			(at 35.56 24.13 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11351,7 +11935,7 @@
 			)
 		)
 		(property "Value" "TSR1-2450E"
-			(at 36.83 26.67 0)
+			(at 35.56 26.67 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11361,7 +11945,7 @@
 			)
 		)
 		(property "Footprint" "Converter_DCDC:Converter_DCDC_TRACO_TSR1-xxxxE_THT"
-			(at 36.83 40.64 0)
+			(at 35.56 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11373,7 +11957,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.tracopower.com/products/tsr1e.pdf"
-			(at 36.83 38.1 0)
+			(at 35.56 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11384,7 +11968,7 @@
 			)
 		)
 		(property "Description" "1A step-down regulator, fixed 5V output voltage, 7-36V input voltage, TO-220 compatible LM78xx replacement"
-			(at 36.83 34.29 0)
+			(at 35.56 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12204,6 +12788,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 85.09 46.99 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a4430e6f-a63c-4505-bc47-a2bfbb3c102e")
+		(property "Reference" "#PWR013"
+			(at 85.09 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 85.09 52.07 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 85.09 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 85.09 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 85.09 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ee1a4725-6160-4445-b913-bca74b072d0f")
+		)
+		(instances
+			(project "template"
+				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/7d59fd70-1fff-4c9c-ae77-583b08aef567"
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 273.05 34.29 0)
 		(unit 1)
@@ -12297,7 +12959,7 @@
 	)
 	(symbol
 		(lib_id "power:+24V")
-		(at 17.78 31.75 0)
+		(at 16.51 31.75 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12308,7 +12970,7 @@
 		(fields_autoplaced yes)
 		(uuid "a71e2577-9ca1-427c-b743-44d6660a8e6a")
 		(property "Reference" "#PWR04"
-			(at 17.78 35.56 0)
+			(at 16.51 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12319,7 +12981,7 @@
 			)
 		)
 		(property "Value" "+24V"
-			(at 17.78 26.67 0)
+			(at 16.51 26.67 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12329,7 +12991,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 17.78 31.75 0)
+			(at 16.51 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12340,7 +13002,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 17.78 31.75 0)
+			(at 16.51 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12351,7 +13013,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+24V\""
-			(at 17.78 31.75 0)
+			(at 16.51 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12665,7 +13327,7 @@
 				)
 			)
 		)
-		(property "Value" "5A"
+		(property "Value" "7.5"
 			(at 254 28.448 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12729,6 +13391,99 @@
 			(project "template"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/7d59fd70-1fff-4c9c-ae77-583b08aef567"
 					(reference "F2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 96.52 35.56 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b2af61ed-1139-467f-ab2f-b9a6b35f9ee9")
+		(property "Reference" "C4"
+			(at 100.33 34.2899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "47uf"
+			(at 100.33 36.8299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-3216-10_Kemet-I"
+			(at 97.4852 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/parts/componentSearch?searchTxt=tantalum%2047%20uf"
+			(at 96.52 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 96.52 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB" "C7190"
+			(at 96.52 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1833c2b3-c215-4878-84bd-8cf7e9c83afb")
+		)
+		(pin "2"
+			(uuid "9f42c6a5-08db-499c-a75b-6192440aa9f6")
+		)
+		(instances
+			(project "template"
+				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/7d59fd70-1fff-4c9c-ae77-583b08aef567"
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -14060,7 +14815,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 254 41.91 0)
+		(at 256.54 41.91 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14070,7 +14825,7 @@
 		(dnp no)
 		(uuid "dcf54faa-0ac4-4b87-bfcb-aad63c31ac71")
 		(property "Reference" "#PWR033"
-			(at 254 48.26 0)
+			(at 256.54 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14081,7 +14836,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 254 45.72 0)
+			(at 256.54 45.72 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14091,7 +14846,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 254 41.91 0)
+			(at 256.54 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14102,7 +14857,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 254 41.91 0)
+			(at 256.54 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14113,7 +14868,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 254 41.91 0)
+			(at 256.54 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
