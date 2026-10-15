@@ -5388,6 +5388,12 @@
 		(uuid "412d43cf-42ed-4d0f-b56c-8523146058e7")
 	)
 	(junction
+		(at 245.11 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "52f92a61-c54d-4ab7-ae07-32643269a134")
+	)
+	(junction
 		(at 81.28 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5416,18 +5422,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "77f7c65f-5257-4c49-b700-bff352876f59")
-	)
-	(junction
-		(at 260.35 134.62)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7befebc8-3185-47d1-92a9-32f1cd843b13")
-	)
-	(junction
-		(at 74.93 31.75)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7d33f9f2-af48-4612-9785-0565043472d6")
 	)
 	(junction
 		(at 135.89 91.44)
@@ -5779,7 +5773,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 35.56) (xy 86.36 35.56)
+			(xy 46.99 31.75) (xy 57.15 31.75)
 		)
 		(stroke
 			(width 0)
@@ -6149,16 +6143,6 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 40.64) (xy 247.65 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "560114b9-6f79-4479-996f-bbbcc8066b90")
-	)
-	(wire
-		(pts
 			(xy 101.6 93.98) (xy 107.95 93.98)
 		)
 		(stroke
@@ -6249,23 +6233,13 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 43.18) (xy 66.04 44.45)
+			(xy 36.83 39.37) (xy 36.83 40.64)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "65add241-a68a-46df-a229-1133ee8230fa")
-	)
-	(wire
-		(pts
-			(xy 66.04 43.18) (xy 66.04 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "65add241-a68a-46df-a229-1133ee8230fa")
+		(uuid "65add241-a68a-46df-a229-1133ee8230fb")
 	)
 	(wire
 		(pts
@@ -6509,17 +6483,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 100.33) (xy 63.5 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "87a85b50-1ddd-4c02-861e-d47600447f66")
-	)
-	(wire
-		(pts
-			(xy 245.11 40.64) (xy 247.65 40.64)
+			(xy 245.11 41.91) (xy 254 41.91)
 		)
 		(stroke
 			(width 0)
@@ -6769,16 +6733,6 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 31.75) (xy 80.01 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bc9c1e41-5f63-4646-bc42-c0e602087999")
-	)
-	(wire
-		(pts
 			(xy 29.21 105.41) (xy 29.21 118.11)
 		)
 		(stroke
@@ -6909,7 +6863,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 35.56) (xy 55.88 35.56)
+			(xy 17.78 31.75) (xy 26.67 31.75)
 		)
 		(stroke
 			(width 0)
@@ -7056,16 +7010,6 @@
 			(type default)
 		)
 		(uuid "ecc8cf12-a6ba-4647-822f-710e96687378")
-	)
-	(wire
-		(pts
-			(xy 276.86 34.29) (xy 274.32 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ed128406-cac2-493b-9395-07f8cd80b344")
 	)
 	(wire
 		(pts
@@ -7278,7 +7222,7 @@
 		(uuid "39c33eaa-75e1-452c-8c3e-ceaf5f801481")
 	)
 	(label "5V VDC"
-		(at 86.36 35.56 180)
+		(at 57.15 31.75 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8045,7 +7989,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 66.04 44.45 0)
+		(at 36.83 40.64 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8056,7 +8000,7 @@
 		(fields_autoplaced yes)
 		(uuid "163a8e2a-6af7-42e8-bdac-b7d484c4726a")
 		(property "Reference" "#PWR01"
-			(at 66.04 50.8 0)
+			(at 36.83 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8067,7 +8011,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 66.04 49.53 0)
+			(at 36.83 45.72 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8077,7 +8021,7 @@
 			)
 		)
 		(property "Footprint" "Converter_DCDC:Converter_DCDC_TRACO_TSR1-xxxxE_THT"
-			(at 66.04 44.45 0)
+			(at 36.83 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8088,7 +8032,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 66.04 44.45 0)
+			(at 36.83 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8099,7 +8043,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 66.04 44.45 0)
+			(at 36.83 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9574,7 +9518,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 245.11 40.64 180)
+		(at 245.11 41.91 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9584,7 +9528,7 @@
 		(dnp no)
 		(uuid "49d8e054-ec4b-4a24-a0c6-fe3950b4fe80")
 		(property "Reference" "TP7"
-			(at 238.76 46.228 0)
+			(at 240.284 46.482 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9595,7 +9539,7 @@
 			)
 		)
 		(property "Value" "BLACK"
-			(at 237.998 44.45 0)
+			(at 234.188 46.228 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9606,7 +9550,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 240.03 40.64 0)
+			(at 240.03 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9617,7 +9561,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 240.03 40.64 0)
+			(at 240.03 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9628,7 +9572,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 245.11 40.64 0)
+			(at 245.11 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11180,9 +11124,6 @@
 				)
 			)
 		)
-		(pin "3"
-			(uuid "c00acfb6-5369-4613-8bf3-528958488256")
-		)
 		(pin "1"
 			(uuid "69fd9c59-e366-4754-94b8-882568a4bc3f")
 		)
@@ -11389,7 +11330,7 @@
 	)
 	(symbol
 		(lib_id "Converter_DCDC:TSR1-2450E")
-		(at 66.04 38.1 0)
+		(at 36.83 34.29 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11400,7 +11341,7 @@
 		(fields_autoplaced yes)
 		(uuid "834c605e-200d-446e-87ef-48348d269461")
 		(property "Reference" "U1"
-			(at 66.04 27.94 0)
+			(at 36.83 24.13 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11410,7 +11351,7 @@
 			)
 		)
 		(property "Value" "TSR1-2450E"
-			(at 66.04 30.48 0)
+			(at 36.83 26.67 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11420,7 +11361,7 @@
 			)
 		)
 		(property "Footprint" "Converter_DCDC:Converter_DCDC_TRACO_TSR1-xxxxE_THT"
-			(at 66.04 44.45 0)
+			(at 36.83 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11432,7 +11373,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.tracopower.com/products/tsr1e.pdf"
-			(at 66.04 41.91 0)
+			(at 36.83 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11443,7 +11384,7 @@
 			)
 		)
 		(property "Description" "1A step-down regulator, fixed 5V output voltage, 7-36V input voltage, TO-220 compatible LM78xx replacement"
-			(at 66.04 38.1 0)
+			(at 36.83 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12356,7 +12297,7 @@
 	)
 	(symbol
 		(lib_id "power:+24V")
-		(at 46.99 35.56 0)
+		(at 17.78 31.75 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12367,7 +12308,7 @@
 		(fields_autoplaced yes)
 		(uuid "a71e2577-9ca1-427c-b743-44d6660a8e6a")
 		(property "Reference" "#PWR04"
-			(at 46.99 39.37 0)
+			(at 17.78 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12378,7 +12319,7 @@
 			)
 		)
 		(property "Value" "+24V"
-			(at 46.99 30.48 0)
+			(at 17.78 26.67 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12388,7 +12329,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 46.99 35.56 0)
+			(at 17.78 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12399,7 +12340,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 46.99 35.56 0)
+			(at 17.78 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12410,7 +12351,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+24V\""
-			(at 46.99 35.56 0)
+			(at 17.78 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14119,7 +14060,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 247.65 41.91 0)
+		(at 254 41.91 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14129,7 +14070,7 @@
 		(dnp no)
 		(uuid "dcf54faa-0ac4-4b87-bfcb-aad63c31ac71")
 		(property "Reference" "#PWR033"
-			(at 247.65 48.26 0)
+			(at 254 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14140,7 +14081,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 247.65 45.72 0)
+			(at 254 45.72 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14150,7 +14091,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 247.65 41.91 0)
+			(at 254 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14161,7 +14102,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 247.65 41.91 0)
+			(at 254 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14172,7 +14113,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 247.65 41.91 0)
+			(at 254 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
