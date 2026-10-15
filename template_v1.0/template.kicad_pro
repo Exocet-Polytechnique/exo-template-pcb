@@ -561,7 +561,7 @@
       "method": 0,
       "sort_order": 0
     },
-    "bom_export_filename": "../symbols.md",
+    "bom_export_filename": "${PROJECTNAME}.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": "|",
@@ -705,7 +705,7 @@
         "uuid": "4b4cf3aa-c94c-4150-b9c5-35049cd71136"
       }
     ],
-    "used_designators": "C1,C18-19,D3-5,#PWR4,#PWR34-37,FB1-3,TP6-7,F2,#FLG1,U4",
+    "used_designators": "C9,C18-19,D3-5,#PWR1,#PWR4,#PWR10,#PWR13,#PWR15-16,#PWR34-38,FB1-3,TP6-7,F2,R3,#FLG1,U1,U3",
     "variants": []
   },
   "sheets": [
