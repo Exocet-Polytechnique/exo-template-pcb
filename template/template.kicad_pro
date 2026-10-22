@@ -561,7 +561,7 @@
       "method": 0,
       "sort_order": 0
     },
-    "bom_export_filename": "../symbols.md",
+    "bom_export_filename": "${PROJECTNAME}.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": "|",
@@ -647,6 +647,12 @@
           "label": "Net Label",
           "name": "Net Label",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Symbol",
+          "name": "Symbol",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -654,7 +660,7 @@
       "include_excluded_from_bom": false,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_field": "Datasheet"
     },
     "bus_aliases": {},
     "connection_grid_size": 50.0,
@@ -686,6 +692,14 @@
       "version": 1
     },
     "net_format_name": "",
+    "ngspice": {
+      "fix_include_paths": true,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 4,
+      "workbook_filename": ""
+    },
     "page_layout_descr_file": "kicad-embed://drawing_sheet.kicad_wks",
     "plot_directory": "",
     "reuse_designators": true,
@@ -705,7 +719,7 @@
         "uuid": "4b4cf3aa-c94c-4150-b9c5-35049cd71136"
       }
     ],
-    "used_designators": "",
+    "used_designators": "C5-6,C20,R6,#PWR7,D6",
     "variants": []
   },
   "sheets": [
