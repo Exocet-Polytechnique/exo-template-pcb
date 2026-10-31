@@ -262,7 +262,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": ""
+      "sch_revision": "v1.1.0"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -759,8 +759,8 @@
     ]
   ],
   "text_variables": {
-    "AUTHOR": "Guillaume Chénier",
-    "CONTRIBUTORS": "Eliot F., Wilfred P.",
+    "AUTHOR": "Gabriel Sabérian",
+    "CONTRIBUTORS": "Lusser M., Eliot F., Guillaume C.",
     "PROJECT_CODE": "TEM.00",
     "PROJECT_NAME": "STM32 PCB Template",
     "REVIEWERS": "Eliot F."

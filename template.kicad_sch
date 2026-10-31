@@ -5,7 +5,9 @@
 	(uuid "4b4cf3aa-c94c-4150-b9c5-35049cd71136")
 	(paper "A4")
 	(title_block
-		(date "2026-10-15")
+		(title "Main page")
+		(date "2026-10-30")
+		(rev "v1.1.0")
 	)
 	(lib_symbols)
 	(sheet
