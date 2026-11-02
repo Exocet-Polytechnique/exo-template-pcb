@@ -9707,6 +9707,10 @@
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/7d59fd70-1fff-4c9c-ae77-583b08aef567"
 					(reference "TP3")
 					(unit 1)
+					(variant
+						(name "JLCPCB")
+						(dnp yes)
+					)
 				)
 			)
 		)
@@ -10281,6 +10285,17 @@
 				)
 			)
 		)
+		(property "JLCPCB" ""
+			(at 69.85 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "d9676b1c-3e89-420d-885f-2262109dd607")
 		)
@@ -10292,6 +10307,13 @@
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/7d59fd70-1fff-4c9c-ae77-583b08aef567"
 					(reference "C3")
 					(unit 1)
+					(variant
+						(name "JLCPCB")
+						(field
+							(name "JLCPCB")
+							(value "C13585")
+						)
+					)
 				)
 			)
 		)
@@ -10464,6 +10486,10 @@
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/7d59fd70-1fff-4c9c-ae77-583b08aef567"
 					(reference "U2")
 					(unit 1)
+					(variant
+						(name "JLCPCB")
+						(dnp yes)
+					)
 				)
 			)
 		)
@@ -10778,6 +10804,17 @@
 				)
 			)
 		)
+		(property "JLCPCB" ""
+			(at 92.71 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "0319a869-d27e-447f-b691-efbbd071bca6")
 		)
@@ -10985,6 +11022,13 @@
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/7d59fd70-1fff-4c9c-ae77-583b08aef567"
 					(reference "U4")
 					(unit 1)
+					(variant
+						(name "JLCPCB")
+						(field
+							(name "JLCPCB")
+							(value "C529413")
+						)
+					)
 				)
 			)
 		)
@@ -11088,6 +11132,10 @@
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/7d59fd70-1fff-4c9c-ae77-583b08aef567"
 					(reference "TP6")
 					(unit 1)
+					(variant
+						(name "JLCPCB")
+						(dnp yes)
+					)
 				)
 			)
 		)
@@ -11268,6 +11316,10 @@
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/7d59fd70-1fff-4c9c-ae77-583b08aef567"
 					(reference "J1")
 					(unit 1)
+					(variant
+						(name "JLCPCB")
+						(dnp yes)
+					)
 				)
 			)
 		)
@@ -11424,6 +11476,17 @@
 				)
 			)
 		)
+		(property "JLCPCB" ""
+			(at 152.4 100.33 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "04120ad5-3911-4acd-9ce4-44867ce5b883")
 		)
@@ -11435,6 +11498,13 @@
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/7d59fd70-1fff-4c9c-ae77-583b08aef567"
 					(reference "C13")
 					(unit 1)
+					(variant
+						(name "JLCPCB")
+						(field
+							(name "JLCPCB")
+							(value "C1525")
+						)
+					)
 				)
 			)
 		)
@@ -11748,6 +11818,17 @@
 				)
 			)
 		)
+		(property "JLCPCB" ""
+			(at 265.43 127 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "be7dcb96-77cc-43f8-bf03-3ac4201debef")
 		)
@@ -11759,6 +11840,13 @@
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/7d59fd70-1fff-4c9c-ae77-583b08aef567"
 					(reference "C16")
 					(unit 1)
+					(variant
+						(name "JLCPCB")
+						(field
+							(name "JLCPCB")
+							(value "C23630")
+						)
+					)
 				)
 			)
 		)
@@ -11997,6 +12085,17 @@
 				)
 			)
 		)
+		(property "JLCPCB" ""
+			(at 196.85 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "391d2c5a-1e54-4233-979f-dd60406b26af")
 		)
@@ -12008,6 +12107,13 @@
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/7d59fd70-1fff-4c9c-ae77-583b08aef567"
 					(reference "R1")
 					(unit 1)
+					(variant
+						(name "JLCPCB")
+						(field
+							(name "JLCPCB")
+							(value "C21190")
+						)
+					)
 				)
 			)
 		)
@@ -12088,6 +12194,17 @@
 				)
 			)
 		)
+		(property "JLCPCB" ""
+			(at 45.72 96.52 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "171264eb-0e50-4cd7-995e-72040636b68f")
 		)
@@ -12099,6 +12216,13 @@
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/7d59fd70-1fff-4c9c-ae77-583b08aef567"
 					(reference "C11")
 					(unit 1)
+					(variant
+						(name "JLCPCB")
+						(field
+							(name "JLCPCB")
+							(value "C1525")
+						)
+					)
 				)
 			)
 		)
@@ -12259,6 +12383,17 @@
 				)
 			)
 		)
+		(property "JLCPCB" ""
+			(at 264.16 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "0e8ffe82-bc95-468e-b3f2-b8d4e2af3256")
 		)
@@ -12270,6 +12405,13 @@
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/7d59fd70-1fff-4c9c-ae77-583b08aef567"
 					(reference "R2")
 					(unit 1)
+					(variant
+						(name "JLCPCB")
+						(field
+							(name "JLCPCB")
+							(value "C22765")
+						)
+					)
 				)
 			)
 		)
@@ -12520,6 +12662,10 @@
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/7d59fd70-1fff-4c9c-ae77-583b08aef567"
 					(reference "F2")
 					(unit 1)
+					(variant
+						(name "JLCPCB")
+						(dnp yes)
+					)
 				)
 			)
 		)
@@ -12602,6 +12748,17 @@
 				)
 			)
 		)
+		(property "JLCPCB" ""
+			(at 261.62 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "83aba39a-ef79-4916-95d9-50a44c9cddf2")
 		)
@@ -12616,6 +12773,13 @@
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/7d59fd70-1fff-4c9c-ae77-583b08aef567"
 					(reference "Q1")
 					(unit 1)
+					(variant
+						(name "JLCPCB")
+						(field
+							(name "JLCPCB")
+							(value "C20917")
+						)
+					)
 				)
 			)
 		)
@@ -12695,6 +12859,17 @@
 				)
 			)
 		)
+		(property "JLCPCB" ""
+			(at 45.72 83.82 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "2e69daec-29f9-40f9-80b8-f99b798fbe50")
 		)
@@ -12706,6 +12881,13 @@
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/7d59fd70-1fff-4c9c-ae77-583b08aef567"
 					(reference "C8")
 					(unit 1)
+					(variant
+						(name "JLCPCB")
+						(field
+							(name "JLCPCB")
+							(value "C23630")
+						)
+					)
 				)
 			)
 		)
@@ -12797,6 +12979,10 @@
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/7d59fd70-1fff-4c9c-ae77-583b08aef567"
 					(reference "SW1")
 					(unit 1)
+					(variant
+						(name "JLCPCB")
+						(dnp yes)
+					)
 				)
 			)
 		)
@@ -12890,6 +13076,17 @@
 				(justify right)
 			)
 		)
+		(property "JLCPCB" ""
+			(at 264.16 82.55 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "49f19427-1938-4672-8e8f-56b8d0c55b37")
 		)
@@ -12901,6 +13098,13 @@
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/7d59fd70-1fff-4c9c-ae77-583b08aef567"
 					(reference "D5")
 					(unit 1)
+					(variant
+						(name "JLCPCB")
+						(field
+							(name "JLCPCB")
+							(value "C2296")
+						)
+					)
 				)
 			)
 		)
@@ -12984,6 +13188,17 @@
 				)
 			)
 		)
+		(property "JLCPCB" ""
+			(at 260.35 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "1fa8991c-ff4b-4c1b-b78d-9c5cab18aed6")
 		)
@@ -13013,6 +13228,13 @@
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/7d59fd70-1fff-4c9c-ae77-583b08aef567"
 					(reference "U3")
 					(unit 1)
+					(variant
+						(name "JLCPCB")
+						(field
+							(name "JLCPCB")
+							(value "C132227")
+						)
+					)
 				)
 			)
 		)
@@ -13092,6 +13314,17 @@
 				)
 			)
 		)
+		(property "JLCPCB" ""
+			(at 152.4 138.43 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "9cccf3bb-b361-4276-8a6c-712454584304")
 		)
@@ -13103,6 +13336,13 @@
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/7d59fd70-1fff-4c9c-ae77-583b08aef567"
 					(reference "C17")
 					(unit 1)
+					(variant
+						(name "JLCPCB")
+						(field
+							(name "JLCPCB")
+							(value "C23630")
+						)
+					)
 				)
 			)
 		)
@@ -13195,6 +13435,10 @@
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/7d59fd70-1fff-4c9c-ae77-583b08aef567"
 					(reference "D3")
 					(unit 1)
+					(variant
+						(name "JLCPCB")
+						(dnp yes)
+					)
 				)
 			)
 		)
@@ -13276,6 +13520,17 @@
 				)
 			)
 		)
+		(property "JLCPCB" ""
+			(at 110.49 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "ee8f6e63-d326-4142-80eb-235250fac0d4")
 		)
@@ -13287,6 +13542,13 @@
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/7d59fd70-1fff-4c9c-ae77-583b08aef567"
 					(reference "FB1")
 					(unit 1)
+					(variant
+						(name "JLCPCB")
+						(field
+							(name "JLCPCB")
+							(value "C1015")
+						)
+					)
 				)
 			)
 		)
@@ -13367,6 +13629,17 @@
 				)
 			)
 		)
+		(property "JLCPCB" ""
+			(at 115.57 160.02 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "bc0e9e47-978c-41a0-a2d0-5dbc289fe6ae")
 		)
@@ -13378,6 +13651,13 @@
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/7d59fd70-1fff-4c9c-ae77-583b08aef567"
 					(reference "R7")
 					(unit 1)
+					(variant
+						(name "JLCPCB")
+						(field
+							(name "JLCPCB")
+							(value "C25804")
+						)
+					)
 				)
 			)
 		)
@@ -13959,6 +14239,17 @@
 				(justify right)
 			)
 		)
+		(property "JLCPCB" ""
+			(at 196.85 39.37 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "32416abd-8ac2-4895-9308-fa22679e804f")
 		)
@@ -13970,6 +14261,13 @@
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/7d59fd70-1fff-4c9c-ae77-583b08aef567"
 					(reference "D2")
 					(unit 1)
+					(variant
+						(name "JLCPCB")
+						(field
+							(name "JLCPCB")
+							(value "C2297")
+						)
+					)
 				)
 			)
 		)
@@ -14130,6 +14428,17 @@
 				)
 			)
 		)
+		(property "JLCPCB" ""
+			(at 38.1 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "3988a9ff-8bfa-4163-9b0e-b3bcb6e5a988")
 		)
@@ -14141,6 +14450,13 @@
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/7d59fd70-1fff-4c9c-ae77-583b08aef567"
 					(reference "C19")
 					(unit 1)
+					(variant
+						(name "JLCPCB")
+						(field
+							(name "JLCPCB")
+							(value "C1658")
+						)
+					)
 				)
 			)
 		)
@@ -14221,6 +14537,17 @@
 				)
 			)
 		)
+		(property "JLCPCB" ""
+			(at 271.78 138.43 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "216de072-9942-409b-bab0-f6116a05c4da")
 		)
@@ -14232,6 +14559,13 @@
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/7d59fd70-1fff-4c9c-ae77-583b08aef567"
 					(reference "R6")
 					(unit 1)
+					(variant
+						(name "JLCPCB")
+						(field
+							(name "JLCPCB")
+							(value "C22775")
+						)
+					)
 				)
 			)
 		)
@@ -14390,6 +14724,17 @@
 				)
 			)
 		)
+		(property "JLCPCB" ""
+			(at 270.51 25.4 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "e6520941-0e89-4692-89fb-4c9aaec44c05")
 		)
@@ -14401,6 +14746,13 @@
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/7d59fd70-1fff-4c9c-ae77-583b08aef567"
 					(reference "C1")
 					(unit 1)
+					(variant
+						(name "JLCPCB")
+						(field
+							(name "JLCPCB")
+							(value "C1525")
+						)
+					)
 				)
 			)
 		)
@@ -14500,6 +14852,10 @@
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/7d59fd70-1fff-4c9c-ae77-583b08aef567"
 					(reference "TP5")
 					(unit 1)
+					(variant
+						(name "JLCPCB")
+						(dnp yes)
+					)
 				)
 			)
 		)
@@ -14747,6 +15103,17 @@
 				)
 			)
 		)
+		(property "JLCPCB" ""
+			(at 132.08 87.63 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "1fd75cb0-d0b9-45e5-a2a5-a9fbabb9d71c")
 		)
@@ -14758,6 +15125,13 @@
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/7d59fd70-1fff-4c9c-ae77-583b08aef567"
 					(reference "C9")
 					(unit 1)
+					(variant
+						(name "JLCPCB")
+						(field
+							(name "JLCPCB")
+							(value "C15195")
+						)
+					)
 				)
 			)
 		)
@@ -14916,6 +15290,17 @@
 				)
 			)
 		)
+		(property "JLCPCB" ""
+			(at 152.4 113.03 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "daee38f0-ec41-4c95-b7f9-a105e4dd1a42")
 		)
@@ -14927,6 +15312,13 @@
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/7d59fd70-1fff-4c9c-ae77-583b08aef567"
 					(reference "C14")
 					(unit 1)
+					(variant
+						(name "JLCPCB")
+						(field
+							(name "JLCPCB")
+							(value "C1525")
+						)
+					)
 				)
 			)
 		)
@@ -15085,6 +15477,17 @@
 				)
 			)
 		)
+		(property "JLCPCB" ""
+			(at 44.45 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "6f4d1fba-234f-468b-b5b6-04c660987f77")
 		)
@@ -15096,6 +15499,13 @@
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/7d59fd70-1fff-4c9c-ae77-583b08aef567"
 					(reference "Y1")
 					(unit 1)
+					(variant
+						(name "JLCPCB")
+						(field
+							(name "JLCPCB")
+							(value "C12674")
+						)
+					)
 				)
 			)
 		)
@@ -15269,6 +15679,10 @@
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/7d59fd70-1fff-4c9c-ae77-583b08aef567"
 					(reference "U1")
 					(unit 1)
+					(variant
+						(name "JLCPCB")
+						(dnp yes)
+					)
 				)
 			)
 		)
@@ -15348,6 +15762,17 @@
 				)
 			)
 		)
+		(property "JLCPCB" ""
+			(at 152.4 149.86 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "a9670cda-9460-4494-b3b5-83288eb5096e")
 		)
@@ -15359,6 +15784,13 @@
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/7d59fd70-1fff-4c9c-ae77-583b08aef567"
 					(reference "C18")
 					(unit 1)
+					(variant
+						(name "JLCPCB")
+						(field
+							(name "JLCPCB")
+							(value "C23630")
+						)
+					)
 				)
 			)
 		)
@@ -15517,6 +15949,17 @@
 				)
 			)
 		)
+		(property "JLCPCB" ""
+			(at 228.6 27.94 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "ed748b10-f859-4f56-8aa4-00484c02d0ca")
 		)
@@ -15528,6 +15971,13 @@
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/7d59fd70-1fff-4c9c-ae77-583b08aef567"
 					(reference "C2")
 					(unit 1)
+					(variant
+						(name "JLCPCB")
+						(field
+							(name "JLCPCB")
+							(value "C1525")
+						)
+					)
 				)
 			)
 		)
@@ -15685,6 +16135,17 @@
 				)
 			)
 		)
+		(property "JLCPCB" ""
+			(at 148.59 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "472a640e-f76c-44e4-9d90-1d296e59d012")
 		)
@@ -15696,6 +16157,13 @@
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/7d59fd70-1fff-4c9c-ae77-583b08aef567"
 					(reference "C5")
 					(unit 1)
+					(variant
+						(name "JLCPCB")
+						(field
+							(name "JLCPCB")
+							(value "C1623")
+						)
+					)
 				)
 			)
 		)
@@ -15777,6 +16245,17 @@
 				)
 			)
 		)
+		(property "JLCPCB" ""
+			(at 195.58 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "4"
 			(uuid "e4ceda57-f1dc-45bc-99dd-e7bd4ff3f766")
 		)
@@ -15824,6 +16303,13 @@
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/7d59fd70-1fff-4c9c-ae77-583b08aef567"
 					(reference "J2")
 					(unit 1)
+					(variant
+						(name "JLCPCB")
+						(field
+							(name "JLCPCB")
+							(value "C7465995")
+						)
+					)
 				)
 			)
 		)
@@ -15917,6 +16403,10 @@
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/7d59fd70-1fff-4c9c-ae77-583b08aef567"
 					(reference "D4")
 					(unit 1)
+					(variant
+						(name "JLCPCB")
+						(dnp yes)
+					)
 				)
 			)
 		)
@@ -16009,6 +16499,10 @@
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/7d59fd70-1fff-4c9c-ae77-583b08aef567"
 					(reference "D1")
 					(unit 1)
+					(variant
+						(name "JLCPCB")
+						(dnp yes)
+					)
 				)
 			)
 		)
@@ -16556,6 +17050,17 @@
 				)
 			)
 		)
+		(property "JLCPCB" ""
+			(at 116.84 134.62 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "82a10914-9873-47f7-9653-1936da93b205")
 		)
@@ -16567,6 +17072,13 @@
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/7d59fd70-1fff-4c9c-ae77-583b08aef567"
 					(reference "R5")
 					(unit 1)
+					(variant
+						(name "JLCPCB")
+						(field
+							(name "JLCPCB")
+							(value "C23182")
+						)
+					)
 				)
 			)
 		)
@@ -16649,6 +17161,17 @@
 				)
 			)
 		)
+		(property "JLCPCB" ""
+			(at 81.28 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "ad17aab4-a414-4580-833a-279095a29da1")
 		)
@@ -16660,6 +17183,13 @@
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/7d59fd70-1fff-4c9c-ae77-583b08aef567"
 					(reference "C4")
 					(unit 1)
+					(variant
+						(name "JLCPCB")
+						(field
+							(name "JLCPCB")
+							(value "C307331")
+						)
+					)
 				)
 			)
 		)
@@ -16849,6 +17379,10 @@
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/7d59fd70-1fff-4c9c-ae77-583b08aef567"
 					(reference "F1")
 					(unit 1)
+					(variant
+						(name "JLCPCB")
+						(dnp yes)
+					)
 				)
 			)
 		)
@@ -16941,6 +17475,10 @@
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/7d59fd70-1fff-4c9c-ae77-583b08aef567"
 					(reference "C6")
 					(unit 1)
+					(variant
+						(name "JLCPCB")
+						(dnp yes)
+					)
 				)
 			)
 		)
@@ -17023,6 +17561,17 @@
 				)
 			)
 		)
+		(property "JLCPCB" ""
+			(at 247.65 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "71c823c2-9f2c-40fb-a8d0-ec15fbaa70c5")
 		)
@@ -17034,6 +17583,13 @@
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/7d59fd70-1fff-4c9c-ae77-583b08aef567"
 					(reference "R4")
 					(unit 1)
+					(variant
+						(name "JLCPCB")
+						(field
+							(name "JLCPCB")
+							(value "C22765")
+						)
+					)
 				)
 			)
 		)
@@ -17350,6 +17906,17 @@
 				)
 			)
 		)
+		(property "JLCPCB" ""
+			(at 50.8 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "eb7205f1-3cb7-4d54-811b-80abfe478e25")
 		)
@@ -17361,6 +17928,13 @@
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/7d59fd70-1fff-4c9c-ae77-583b08aef567"
 					(reference "C20")
 					(unit 1)
+					(variant
+						(name "JLCPCB")
+						(field
+							(name "JLCPCB")
+							(value "C1658")
+						)
+					)
 				)
 			)
 		)
@@ -17519,6 +18093,17 @@
 				)
 			)
 		)
+		(property "JLCPCB" ""
+			(at 252.73 92.71 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "e2472d93-5838-425f-af8e-15f4d86398da")
 		)
@@ -17530,6 +18115,13 @@
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/7d59fd70-1fff-4c9c-ae77-583b08aef567"
 					(reference "R3")
 					(unit 1)
+					(variant
+						(name "JLCPCB")
+						(field
+							(name "JLCPCB")
+							(value "C22775")
+						)
+					)
 				)
 			)
 		)
@@ -17846,6 +18438,17 @@
 				)
 			)
 		)
+		(property "JLCPCB" ""
+			(at 180.34 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "5e75d739-0be1-49bc-97d9-255174cd6562")
 		)
@@ -17857,6 +18460,13 @@
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/7d59fd70-1fff-4c9c-ae77-583b08aef567"
 					(reference "C7")
 					(unit 1)
+					(variant
+						(name "JLCPCB")
+						(field
+							(name "JLCPCB")
+							(value "C1525")
+						)
+					)
 				)
 			)
 		)
@@ -18015,6 +18625,17 @@
 				)
 			)
 		)
+		(property "JLCPCB" ""
+			(at 152.4 87.63 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "29b56cb9-fd64-44d6-8b27-aa989fa7b6cf")
 		)
@@ -18026,6 +18647,13 @@
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/7d59fd70-1fff-4c9c-ae77-583b08aef567"
 					(reference "C10")
 					(unit 1)
+					(variant
+						(name "JLCPCB")
+						(field
+							(name "JLCPCB")
+							(value "C1525")
+						)
+					)
 				)
 			)
 		)
@@ -18340,6 +18968,17 @@
 				)
 			)
 		)
+		(property "JLCPCB" ""
+			(at 132.08 100.33 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "16a53fdd-4cbd-4b02-aad2-1880202eb52c")
 		)
@@ -18351,6 +18990,13 @@
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/7d59fd70-1fff-4c9c-ae77-583b08aef567"
 					(reference "C12")
 					(unit 1)
+					(variant
+						(name "JLCPCB")
+						(field
+							(name "JLCPCB")
+							(value "C13585")
+						)
+					)
 				)
 			)
 		)
@@ -18678,6 +19324,10 @@
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/7d59fd70-1fff-4c9c-ae77-583b08aef567"
 					(reference "D6")
 					(unit 1)
+					(variant
+						(name "JLCPCB")
+						(dnp yes)
+					)
 				)
 			)
 		)
@@ -19070,6 +19720,17 @@
 				)
 			)
 		)
+		(property "JLCPCB" ""
+			(at 152.4 125.73 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "7f30a195-ba5a-4b16-8ac6-66fdb3f4ddc5")
 		)
@@ -19081,6 +19742,13 @@
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/7d59fd70-1fff-4c9c-ae77-583b08aef567"
 					(reference "C15")
 					(unit 1)
+					(variant
+						(name "JLCPCB")
+						(field
+							(name "JLCPCB")
+							(value "C1525")
+						)
+					)
 				)
 			)
 		)

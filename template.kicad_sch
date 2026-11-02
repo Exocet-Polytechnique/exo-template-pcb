@@ -488,7 +488,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "101cd41a-1986-4586-8bfd-971d5661c493")
-		(property "Reference" "SYM?"
+		(property "Reference" "SYM2"
 			(at 273.05 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -546,7 +546,7 @@
 		(instances
 			(project "template"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136"
-					(reference "SYM?")
+					(reference "SYM2")
 					(unit 1)
 				)
 			)
