@@ -586,7 +586,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Symbol:ESD-Logo_13.2x12mm_SilkScreen"
+		(property "Footprint" "Symbol:ESD-Logo_8.9x8mm_SilkScreen"
 			(at 272.923 22.352 0)
 			(hide yes)
 			(show_name no)

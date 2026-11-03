@@ -8369,6 +8369,16 @@
 	)
 	(wire
 		(pts
+			(xy 223.52 50.8) (xy 222.25 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6c763c3-9ecf-48df-a5f3-c502f761eb08")
+	)
+	(wire
+		(pts
 			(xy 63.5 26.67) (xy 63.5 27.94)
 		)
 		(stroke
@@ -8689,7 +8699,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 50.8) (xy 231.14 52.07)
+			(xy 222.25 50.8) (xy 222.25 52.07)
 		)
 		(stroke
 			(width 0)
@@ -10084,7 +10094,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 110.49 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -11698,7 +11708,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 110.49 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -12317,7 +12327,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3f61ca24-fefd-4f0a-b8ba-1f35876b63c8")
-		(property "Reference" "R2"
+		(property "Reference" "R3"
 			(at 266.7 73.6599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12403,7 +12413,7 @@
 		(instances
 			(project "template"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/7d59fd70-1fff-4c9c-ae77-583b08aef567"
-					(reference "R2")
+					(reference "R3")
 					(unit 1)
 					(variant
 						(name "JLCPCB")
@@ -13565,7 +13575,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "537d1081-e62f-42ea-bb7e-6501bafaa689")
-		(property "Reference" "R7"
+		(property "Reference" "R8"
 			(at 115.57 153.67 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13649,7 +13659,7 @@
 		(instances
 			(project "template"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/7d59fd70-1fff-4c9c-ae77-583b08aef567"
-					(reference "R7")
+					(reference "R8")
 					(unit 1)
 					(variant
 						(name "JLCPCB")
@@ -14305,7 +14315,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 110.49 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -14473,7 +14483,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "703c8691-d44a-4a3f-8e47-26ef019b1aac")
-		(property "Reference" "R6"
+		(property "Reference" "R7"
 			(at 271.78 132.08 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14557,7 +14567,7 @@
 		(instances
 			(project "template"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/7d59fd70-1fff-4c9c-ae77-583b08aef567"
-					(reference "R6")
+					(reference "R7")
 					(unit 1)
 					(variant
 						(name "JLCPCB")
@@ -14603,7 +14613,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 74.93 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -14893,7 +14903,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 110.49 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -15169,7 +15179,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 110.49 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -15356,7 +15366,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 110.49 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -16930,7 +16940,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 110.49 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -16986,7 +16996,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a9785448-0487-46c7-82c2-acf6bc8c6daa")
-		(property "Reference" "R5"
+		(property "Reference" "R6"
 			(at 119.634 137.16 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17070,7 +17080,7 @@
 		(instances
 			(project "template"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/7d59fd70-1fff-4c9c-ae77-583b08aef567"
-					(reference "R5")
+					(reference "R6")
 					(unit 1)
 					(variant
 						(name "JLCPCB")
@@ -17495,7 +17505,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b766009d-eac5-4c3a-8e02-3d7f0a142965")
-		(property "Reference" "R4"
+		(property "Reference" "R5"
 			(at 250.19 96.5199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17581,7 +17591,7 @@
 		(instances
 			(project "template"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/7d59fd70-1fff-4c9c-ae77-583b08aef567"
-					(reference "R4")
+					(reference "R5")
 					(unit 1)
 					(variant
 						(name "JLCPCB")
@@ -17627,7 +17637,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 74.93 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -17972,7 +17982,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 74.93 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -18019,6 +18029,115 @@
 	)
 	(symbol
 		(lib_id "Device:R")
+		(at 227.33 50.8 90)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ca07b171-b411-4a84-9b2a-1246e6deeb5b")
+		(property "Reference" "R2"
+			(at 227.33 48.26 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100"
+			(at 227.33 53.34 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 227.33 49.022 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 227.33 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 227.33 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "IPN" "RES-0003"
+			(at 227.33 50.8 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB" ""
+			(at 227.33 50.8 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ef3509c8-d3a4-4766-a578-0a96b61e61a4")
+		)
+		(pin "2"
+			(uuid "51331376-4f0f-45d6-beaa-f1b7f9ddba0a")
+		)
+		(instances
+			(project "template"
+				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/7d59fd70-1fff-4c9c-ae77-583b08aef567"
+					(reference "R2")
+					(unit 1)
+					(variant
+						(name "JLCPCB")
+						(field
+							(name "JLCPCB")
+							(value "C22775")
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
 		(at 252.73 92.71 90)
 		(unit 1)
 		(body_style 1)
@@ -18029,7 +18148,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cc225fe6-76d9-4ac9-b1cd-36a7173a570f")
-		(property "Reference" "R3"
+		(property "Reference" "R4"
 			(at 252.73 86.36 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18113,7 +18232,7 @@
 		(instances
 			(project "template"
 				(path "/4b4cf3aa-c94c-4150-b9c5-35049cd71136/7d59fd70-1fff-4c9c-ae77-583b08aef567"
-					(reference "R3")
+					(reference "R4")
 					(unit 1)
 					(variant
 						(name "JLCPCB")
@@ -18237,7 +18356,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 74.93 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -18315,7 +18434,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 74.93 127 0)
 			(hide yes)
 			(show_name no)
@@ -18660,7 +18779,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 231.14 52.07 0)
+		(at 222.25 52.07 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18671,7 +18790,7 @@
 		(fields_autoplaced yes)
 		(uuid "da547fd9-b7a9-4807-823c-4383d8846e10")
 		(property "Reference" "#PWR017"
-			(at 231.14 58.42 0)
+			(at 222.25 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18682,7 +18801,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 231.14 57.15 0)
+			(at 222.25 57.15 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18692,7 +18811,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 231.14 52.07 0)
+			(at 222.25 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18703,7 +18822,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 231.14 52.07 0)
+			(at 222.25 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18714,7 +18833,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 231.14 52.07 0)
+			(at 222.25 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19190,7 +19309,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 110.49 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -19365,7 +19484,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 110.49 147.32 0)
 			(hide yes)
 			(show_name no)
